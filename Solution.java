@@ -15,4 +15,14 @@ class Solution {
             }
         }
     }
+    
+    public static void main(String[] args){
+        int[] nums1={1,2,3,0,0,0};
+        int[] nums2={2,5,6};
+        
+        merge(nums1,3,nums2,3);
+        for(int i=0;i<m+n;i++){
+            System.out.println(nums1[i]);
+        }
+    }
 }
